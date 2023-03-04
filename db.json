@@ -1,144 +1,140 @@
-[
-    {
-        "restaurant":"24 DINER",
-        "price": 2,
-        "is-open": 1,
-        "category": "ITALIAN",
-        "reviews":[
-            { 
-                "rating":4.5,
-                "image":"20190310-140629-largejpg.jpg",
-                "text": "The pasta was cooked to perfection, and the service was top-notch!",
-                "name": "John Smith"
-            },
-            { 
-                "rating":4.5,
-                "image":"20190310-140629-largejpg.jpg",
-                "text": "I love the cozy atmosphere and the delicious pizza!",
-                "name": "Maria Martinez"
-            },
-            { 
-                "rating":4.5,
-                "image":"20190310-140629-largejpg.jpg",
-                "text": "The tiramisu was the best I've ever had!",
-                "name": "Samantha Lee"
-            },
-            { 
-                "rating":4.5,
-                "image":"20190310-140629-largejpg.jpg",
-                "text": "The wine pairing suggestions were spot-on. Highly recommend!",
-                "name": "Daniel Kim"
-            }
-        ]
-    },
-    {
-        "restaurant":"2ND BAR & KITCHEN",
-        "price": 2,
-        "is-open": 1,
-        "category": "JAPANESE",
-        "reviews":[
-            {
-                "rating":4.5,
-                "image":"20190310-140629-largejpg.jpg", 
-                "text": "The sushi was so fresh and delicious. Best in town!" ,
-                "name": "Michael Chen"
-            },
-            {
-                "rating":4.5,
-                "image":"20190310-140629-largejpg.jpg", 
-                "text": "The ramen was the perfect comfort food, and the sake selection was impressive." ,
-                "name": "Sophia Lee"
-            },
-            {
-                "rating":4.5,
-                "image":"20190310-140629-largejpg.jpg", 
-                "text": "The tempura was perfectly crispy, and the matcha latte was a nice touch." ,
-                "name": "Ryan Kim"
-            },
-            {
-                "rating":4.5,
-                "image":"20190310-140629-largejpg.jpg", 
-                "text": "The presentation of each dish was beautiful, and the flavors were even better." ,
-                "name": "Emily Davis"
-            }
-        ]
-    },
-    {
-        "restaurant":"AUSTIN LAND & CATTLE",
-        "price": 2,
-        "is-open": 1,
-        "category": "AMERICAN",
-        "reviews":[
-            {
-                "rating":4.5,
-                "image":"20190310-140629-largejpg.jpg", 
-                "text": "The burgers were cooked to perfection, and the milkshakes were a great addition.",
-                "name": "Jennifer Kim"
-            },
-            {
-                "rating":4.5,
-                "image":"20190310-140629-largejpg.jpg", 
-                "text": "The mac and cheese was the ultimate comfort food, and the craft beer selection was impressive.",
-                "name": "Daniel Lee"
-            },
-            {
-                "rating":4.5,
-                "image":"20190310-140629-largejpg.jpg", 
-                "text": "The fried chicken was the highlight of the meal. So crispy and delicious!",
-                "name": "Ashley Rodriguez"
-            }
-        ]
-    },
-    {
-        "restaurant":"MUSASHINO",
-        "price": 2,
-        "is-open": 1,
-        "category": "JAPANESE",
-        "reviews":[
-            {
-                "rating":4.5,
-                "image":"20190310-140629-largejpg.jpg", 
-                "text": "The udon noodles were so flavorful, and the bento box was a great value.",
-                "name": "Sarah Lee"
-            },
-            {
-                "rating":4.5,
-                "image":"20190310-140629-largejpg.jpg", 
-                "text": "The miso soup was the perfect start to the meal, and the sushi rolls were delicious.",
-                "name": "Kevin Chen"
-            },
-            {
-                "rating":4.5,
-                "image":"20190310-140629-largejpg.jpg", 
-                "text": "The sashimi was so fresh, and the staff was very friendly and attentive.",
-                "name": "Emily Davis"
-            }
-        ]
-    },
-    {
-        "restaurant":"PARKSIDE",
-        "price": 2,
-        "is-open": 1,
-        "category": "AMERICAN",
-        "reviews":[
-            {
-                "rating":4.5,
-                "image":"20190310-140629-largejpg.jpg", 
-                "text": "The steak was cooked to perfection, and the garlic mashed potatoes were a great side.",
-                "name": "Michael Johnson"
-            },
-            {
-                "rating":4.5,
-                "image":"20190310-140629-largejpg.jpg", 
-                "text": "The lobster mac and cheese was worth every penny. Will definitely come back!",
-                "name": "Olivia Nguyen"
-            },
-            {
-                "rating":4.5,
-                "image":"20190310-140629-largejpg.jpg", 
-                "text": "The staff was very accommodating, and the atmosphere was great for a date night.",
-                "name": "David Rodriguez"
-            }
-        ]
-    }
-]
+{
+    "restos": [{
+            "name": "24 DINER",
+            "price": 2,
+            "is-open": 1,
+            "category": "ITALIAN",
+            "reviews": [{
+                    "rating": 4.5,
+                    "image": "20190310-140629-largejpg.jpg",
+                    "text": "The pasta was cooked to perfection, and the service was top-notch!",
+                    "name": "John Smith"
+                },
+                {
+                    "rating": 4.5,
+                    "image": "20190310-140629-largejpg.jpg",
+                    "text": "I love the cozy atmosphere and the delicious pizza!",
+                    "name": "Maria Martinez"
+                },
+                {
+                    "rating": 4.5,
+                    "image": "20190310-140629-largejpg.jpg",
+                    "text": "The tiramisu was the best I've ever had!",
+                    "name": "Samantha Lee"
+                },
+                {
+                    "rating": 4.5,
+                    "image": "20190310-140629-largejpg.jpg",
+                    "text": "The wine pairing suggestions were spot-on. Highly recommend!",
+                    "name": "Daniel Kim"
+                }
+            ]
+        },
+        {
+            "name": "2ND BAR & KITCHEN",
+            "price": 2,
+            "is-open": 1,
+            "category": "JAPANESE",
+            "reviews": [{
+                    "rating": 4.5,
+                    "image": "20190310-140629-largejpg.jpg",
+                    "text": "The sushi was so fresh and delicious. Best in town!",
+                    "name": "Michael Chen"
+                },
+                {
+                    "rating": 4.5,
+                    "image": "20190310-140629-largejpg.jpg",
+                    "text": "The ramen was the perfect comfort food, and the sake selection was impressive.",
+                    "name": "Sophia Lee"
+                },
+                {
+                    "rating": 4.5,
+                    "image": "20190310-140629-largejpg.jpg",
+                    "text": "The tempura was perfectly crispy, and the matcha latte was a nice touch.",
+                    "name": "Ryan Kim"
+                },
+                {
+                    "rating": 4.5,
+                    "image": "20190310-140629-largejpg.jpg",
+                    "text": "The presentation of each dish was beautiful, and the flavors were even better.",
+                    "name": "Emily Davis"
+                }
+            ]
+        },
+        {
+            "name": "AUSTIN LAND & CATTLE",
+            "price": 2,
+            "is-open": 1,
+            "category": "AMERICAN",
+            "reviews": [{
+                    "rating": 4.5,
+                    "image": "20190310-140629-largejpg.jpg",
+                    "text": "The burgers were cooked to perfection, and the milkshakes were a great addition.",
+                    "name": "Jennifer Kim"
+                },
+                {
+                    "rating": 4.5,
+                    "image": "20190310-140629-largejpg.jpg",
+                    "text": "The mac and cheese was the ultimate comfort food, and the craft beer selection was impressive.",
+                    "name": "Daniel Lee"
+                },
+                {
+                    "rating": 4.5,
+                    "image": "20190310-140629-largejpg.jpg",
+                    "text": "The fried chicken was the highlight of the meal. So crispy and delicious!",
+                    "name": "Ashley Rodriguez"
+                }
+            ]
+        },
+        {
+            "name": "MUSASHINO",
+            "price": 2,
+            "is-open": 1,
+            "category": "JAPANESE",
+            "reviews": [{
+                    "rating": 4.5,
+                    "image": "20190310-140629-largejpg.jpg",
+                    "text": "The udon noodles were so flavorful, and the bento box was a great value.",
+                    "name": "Sarah Lee"
+                },
+                {
+                    "rating": 4.5,
+                    "image": "20190310-140629-largejpg.jpg",
+                    "text": "The miso soup was the perfect start to the meal, and the sushi rolls were delicious.",
+                    "name": "Kevin Chen"
+                },
+                {
+                    "rating": 4.5,
+                    "image": "20190310-140629-largejpg.jpg",
+                    "text": "The sashimi was so fresh, and the staff was very friendly and attentive.",
+                    "name": "Emily Davis"
+                }
+            ]
+        },
+        {
+            "name": "PARKSIDE",
+            "price": 2,
+            "is-open": 1,
+            "category": "AMERICAN",
+            "reviews": [{
+                    "rating": 4.5,
+                    "image": "20190310-140629-largejpg.jpg",
+                    "text": "The steak was cooked to perfection, and the garlic mashed potatoes were a great side.",
+                    "name": "Michael Johnson"
+                },
+                {
+                    "rating": 4.5,
+                    "image": "20190310-140629-largejpg.jpg",
+                    "text": "The lobster mac and cheese was worth every penny. Will definitely come back!",
+                    "name": "Olivia Nguyen"
+                },
+                {
+                    "rating": 4.5,
+                    "image": "20190310-140629-largejpg.jpg",
+                    "text": "The staff was very accommodating, and the atmosphere was great for a date night.",
+                    "name": "David Rodriguez"
+                }
+            ]
+        }
+    ]
+}
