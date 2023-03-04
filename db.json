@@ -1,12 +1,8 @@
 [
     {
-        "uuid":"36d0d04c-ba91-11ed-afa1-0242ac120002",
         "restaurant":"24 DINER",
-        "rating":4.5,
         "price": 2,
         "is-open": 1,
-        "street": "Main St.",
-        "phone": "555-1234",
         "category": "ITALIAN",
         "reviews":[
             { 
@@ -36,13 +32,9 @@
         ]
     },
     {
-        "uuid":"f8fc0a26-ba94-11ed-afa1-0242ac120002",
         "restaurant":"2ND BAR & KITCHEN",
-        "rating":4,
         "price": 2,
         "is-open": 1,
-        "street": "Oak St.",
-        "phone": "555-4321",
         "category": "JAPANESE",
         "reviews":[
             {
@@ -72,13 +64,9 @@
         ]
     },
     {
-        "uuid":"5a6d253c-ba9b-11ed-afa1-0242ac120002",
         "restaurant":"AUSTIN LAND & CATTLE",
-        "rating":4,
         "price": 2,
         "is-open": 1,
-        "street": "Walnut St.",
-        "phone": "555-7890",
         "category": "AMERICAN",
         "reviews":[
             {
@@ -102,13 +90,9 @@
         ]
     },
     {
-        "uuid":"609764fe-ba9b-11ed-afa1-0242ac120002",
         "restaurant":"MUSASHINO",
-        "rating":4,
         "price": 2,
         "is-open": 1,
-        "street": "Cedar St.",
-        "phone": "555-2468",
         "category": "JAPANESE",
         "reviews":[
             {
@@ -132,13 +116,9 @@
         ]
     },
     {
-        "uuid":"6339beb4-ba9b-11ed-afa1-0242ac120002",
         "restaurant":"PARKSIDE",
-        "rating":4,
         "price": 2,
         "is-open": 1,
-        "street": "Pine St.",
-        "phone": "555-5678",
         "category": "AMERICAN",
         "reviews":[
             {
