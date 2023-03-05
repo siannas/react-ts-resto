@@ -31,7 +31,7 @@
             ]
         },
         {
-            "name": "2ND BAR & KITCHEN",
+            "name": "2ND BAR KITCHEN",
             "price": 2,
             "is-open": 1,
             "category": "JAPANESE",
@@ -62,7 +62,7 @@
             ]
         },
         {
-            "name": "AUSTIN LAND & CATTLE",
+            "name": "AUSTIN LAND CATTLE",
             "price": 2,
             "is-open": 0,
             "category": "AMERICAN",
@@ -137,7 +137,7 @@
             ]
         },
         {
-            "restaurant":"Pint house pizza",
+            "name":"PINT HOUSE PIZZA",
             "price": 2,
             "is-open": 1,
             "category": "ITALIAN",
@@ -163,7 +163,7 @@
             ]
         },
         {
-            "restaurant":"SEARSUCKER",
+            "name":"SEARSUCKER",
             "price": 2,
             "is-open": 1,
             "category": "AMERICAN",
@@ -189,7 +189,7 @@
             ]
         },
         {
-            "restaurant":"Uchiko",
+            "name":"UCHIKO",
             "price": 2,
             "is-open": 1,
             "category": "JAPANESE",
