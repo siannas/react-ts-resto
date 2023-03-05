@@ -1,0 +1,38 @@
+.resto-item {
+    overflow: hidden;
+}
+
+.resto-item-image {
+    overflow: hidden;
+    position: relative;
+    padding-top: 65%;
+
+    > img {
+        position: absolute;
+        width: 120%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+}
+
+.indicator-on, .indicator-off {
+    &::before {
+        content: '';
+        width: 0.75rem;
+        aspect-ratio: 1;
+        display: inline-block;
+        border-radius: 50%;
+        vertical-align: middle;
+        margin-bottom: 0.25rem;
+        margin-right: 0.35rem;
+    }
+}
+
+.indicator-on::before {
+    background-color: greenyellow;
+}
+
+.indicator-off::before {
+    background-color: red;
+}

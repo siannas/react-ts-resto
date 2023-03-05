@@ -1,0 +1,46 @@
+{
+  "name": "react-ts-resto",
+  "source": "public/index.html",
+  "version": "1.0.0",
+  "description": "list of restaurant data",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "(if exist .\\.parcel-cache\\* del /S /Q .\\.parcel-cache\\*) && parcel",
+    "build": "parcel build ./public/index.html",
+    "clean": "del /S /Q .\\build\\*",
+    "deploy": "parcel build ./public/index.html && gh-pages -d build -b main"
+  },
+  "keywords": [],
+  "author": "siannas",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "gh-pages": "^5.0.0",
+    "parcel": "^2.8.3",
+    "parcel-reporter-static-files-copy": "^1.5.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.3.0",
+    "@fortawesome/free-regular-svg-icons": "^6.3.0",
+    "@fortawesome/free-solid-svg-icons": "^6.3.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@types/react-router-dom": "^5.3.3",
+    "bootstrap": "^5.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.1"
+  },
+  "targets": {
+    "default": {
+      "distDir": "./build",
+      "publicUrl": "/react-ts-resto"
+    }
+  },
+  "staticFiles": {
+    "staticPath": "static",
+    "distDir": "build"
+  }
+}

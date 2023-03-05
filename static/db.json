@@ -1,0 +1,212 @@
+{
+    "restos": [{
+            "name": "24 DINER",
+            "price": 2,
+            "is-open": 1,
+            "category": "ITALIAN",
+            "reviews": [{
+                    "rating": 4.5,
+                    "image": "20190609-183627-largejpg.jpg",
+                    "text": "The pasta was cooked to perfection, and the service was top-notch!",
+                    "name": "John Smith"
+                },
+                {
+                    "rating": 4,
+                    "image": "20190610-183627-largejpg.jpg",
+                    "text": "I love the cozy atmosphere and the delicious pizza!",
+                    "name": "Maria Martinez"
+                },
+                {
+                    "rating": 3.5,
+                    "image": "20190611-183627-largejpg.jpg",
+                    "text": "The tiramisu was the best I've ever had!",
+                    "name": "Samantha Lee"
+                },
+                {
+                    "rating": 5,
+                    "image": "20190612-183627-largejpg.jpg",
+                    "text": "The wine pairing suggestions were spot-on. Highly recommend!",
+                    "name": "Daniel Kim"
+                }
+            ]
+        },
+        {
+            "name": "2ND BAR KITCHEN",
+            "price": 2,
+            "is-open": 1,
+            "category": "JAPANESE",
+            "reviews": [{
+                    "rating": 4,
+                    "image": "20190613-183627-largejpg.jpg",
+                    "text": "The sushi was so fresh and delicious. Best in town!",
+                    "name": "Michael Chen"
+                },
+                {
+                    "rating": 4.5,
+                    "image": "20190614-183627-largejpg.jpg",
+                    "text": "The ramen was the perfect comfort food, and the sake selection was impressive.",
+                    "name": "Sophia Lee"
+                },
+                {
+                    "rating": 5,
+                    "image": "20190615-183627-largejpg.jpg",
+                    "text": "The tempura was perfectly crispy, and the matcha latte was a nice touch.",
+                    "name": "Ryan Kim"
+                },
+                {
+                    "rating": 4.5,
+                    "image": "20190616-183627-largejpg.jpg",
+                    "text": "The presentation of each dish was beautiful, and the flavors were even better.",
+                    "name": "Emily Davis"
+                }
+            ]
+        },
+        {
+            "name": "AUSTIN LAND CATTLE",
+            "price": 2,
+            "is-open": 0,
+            "category": "AMERICAN",
+            "reviews": [{
+                    "rating": 3.5,
+                    "image": "20190617-183627-largejpg.jpg",
+                    "text": "The burgers were cooked to perfection, and the milkshakes were a great addition.",
+                    "name": "Jennifer Kim"
+                },
+                {
+                    "rating": 2.5,
+                    "image": "20190618-183627-largejpg.jpg",
+                    "text": "The mac and cheese was the ultimate comfort food, and the craft beer selection was impressive.",
+                    "name": "Daniel Lee"
+                },
+                {
+                    "rating": 1.5,
+                    "image": "20190619-183627-largejpg.jpg",
+                    "text": "The fried chicken was the highlight of the meal. So crispy and delicious!",
+                    "name": "Ashley Rodriguez"
+                }
+            ]
+        },
+        {
+            "name": "MUSASHINO",
+            "price": 2,
+            "is-open": 0,
+            "category": "JAPANESE",
+            "reviews": [{
+                    "rating": 1.5,
+                    "image": "20190620-183627-largejpg.jpg",
+                    "text": "The udon noodles were so flavorful, and the bento box was a great value.",
+                    "name": "Sarah Lee"
+                },
+                {
+                    "rating": 3,
+                    "image": "20190621-183627-largejpg.jpg",
+                    "text": "The miso soup was the perfect start to the meal, and the sushi rolls were delicious.",
+                    "name": "Kevin Chen"
+                },
+                {
+                    "rating": 2,
+                    "image": "20190622-183627-largejpg.jpg",
+                    "text": "The sashimi was so fresh, and the staff was very friendly and attentive.",
+                    "name": "Emily Davis"
+                }
+            ]
+        },
+        {
+            "name": "PARKSIDE",
+            "price": 2,
+            "is-open": 1,
+            "category": "AMERICAN",
+            "reviews": [{
+                    "rating": 4.5,
+                    "image": "20190623-183627-largejpg.jpg",
+                    "text": "The steak was cooked to perfection, and the garlic mashed potatoes were a great side.",
+                    "name": "Michael Johnson"
+                },
+                {
+                    "rating": 4.5,
+                    "image": "20190624-183627-largejpg.jpg",
+                    "text": "The lobster mac and cheese was worth every penny. Will definitely come back!",
+                    "name": "Olivia Nguyen"
+                },
+                {
+                    "rating": 4.5,
+                    "image": "20190625-183627-largejpg.jpg",
+                    "text": "The staff was very accommodating, and the atmosphere was great for a date night.",
+                    "name": "David Rodriguez"
+                }
+            ]
+        },
+        {
+            "name":"PINT HOUSE PIZZA",
+            "price": 2,
+            "is-open": 1,
+            "category": "ITALIAN",
+            "reviews":[
+                {
+                    "rating":5,
+                    "image": "20190626-183627-largejpg.jpg",
+                    "text": "The gnocchi was so tender and flavorful. Highly recommend!",
+                    "name": "Isabella Garcia"
+                },
+                {
+                    "rating":4.5,
+                    "image": "20190627-183627-largejpg.jpg",
+                    "text": "The pizza was cooked in a wood-fired oven, and the toppings were very fresh.",
+                    "name": "James Kim"
+                },
+                {
+                    "rating":4.5,
+                    "image": "20190628-183627-largejpg.jpg",
+                    "text": "The tiramisu was amazing, and the limoncello was the perfect digestif.",
+                    "name": "Rachel Chen"
+                }
+            ]
+        },
+        {
+            "name":"SEARSUCKER",
+            "price": 2,
+            "is-open": 1,
+            "category": "AMERICAN",
+            "reviews":[
+                {
+                    "rating":4,
+                    "image": "20190629-183627-largejpg.jpg",
+                    "text": "The fried catfish was so crispy and delicious, and the hush puppies were a nice touch.",
+                    "name": "Emily Davis"
+                },
+                {
+                    "rating":3.5,
+                    "image": "20190630-183627-largejpg.jpg",
+                    "text": "The BBQ pulled pork sandwich was the ultimate comfort food.",
+                    "name": "Michael Chen"
+                },
+                {
+                    "rating":4,
+                    "image": "20190631-183627-largejpg.jpg",
+                    "text": "The sweet potato fries were the perfect side dish. Great portion size too!",
+                    "name": "Sophia Lee"
+                }
+            ]
+        },
+        {
+            "name":"UCHIKO",
+            "price": 2,
+            "is-open": 1,
+            "category": "JAPANESE",
+            "reviews":[
+                {
+                    "rating":4.5,
+                    "image": "20190632-183627-largejpg.jpg",
+                    "text": "The yakitori skewers were delicious, and the sake selection was impressive.",
+                    "name": "David Rodriguez"
+                },
+                {
+                    "rating":4.5,
+                    "image": "20190633-183627-largejpg.jpg",
+                    "text": "The sushi rolls were so fresh, and the miso soup was the perfect start",
+                    "name": "George David"
+                }
+            ]
+        }
+    ]
+}

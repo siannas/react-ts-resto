@@ -1,0 +1,32 @@
+.review-item-image {
+    width: 25%;
+    aspect-ratio: 1.5;
+    background-color: antiquewhite;
+    // border: 2px solid gray;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0px 2px #00000038, 0 5px 5px #00000014;
+    outline: 4px solid rgba(0,0,0,10%);
+
+    > img {
+        width: 120%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.review-image-icon {
+    font-size: 2rem;
+    color: rgba(0,0,0,50%);
+    padding: 0rem 0.6rem;
+}
+
+@media (max-width: 576px) { 
+    .review-item-image {
+        width: 100%!important;
+        aspect-ratio: 1.8;
+        margin-bottom:1rem;
+    }
+}

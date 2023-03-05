@@ -1,0 +1,111 @@
+.profile-pic {
+    width: 5.5rem;
+    aspect-ratio: 1;
+    background-image: url(../../images/profile-pict.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.blog-item {
+    display: block;
+    box-shadow: 0 0px 2px #00000038, 0 5px 5px #00000014;
+    padding: 0.5rem 0.75rem;
+    text-decoration: auto;
+    margin: 1.55rem 0;
+    transition: all .3s ease-out;
+
+    > p {
+        margin: 0.5rem 0;
+        text-decoration: none;
+    }
+}
+
+.blog-item:hover {
+    text-decoration: underline;
+    box-shadow: 0 0px 0px 1px #00000038;
+}
+
+.project-item-desc {
+    padding: 0.75rem 0.95rem;
+    overflow: hidden;
+    
+    > p {
+        margin-bottom: 0.125rem;
+    }
+}
+
+.project-text-description {
+    // white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.project-item {
+    cursor: pointer;
+    margin: 1.55rem 0;
+    box-shadow: 0 0px 2px #00000038, 0 5px 5px #00000014;
+    transition: all .3s ease-out;
+
+    &:hover {
+        box-shadow: 0 0px 0px 1px #00000038;
+
+        .project-logo {
+            background-size: 70%;
+            opacity: 0.7;
+        }
+    }
+}
+
+.project-title {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.project-sub-item {
+    position: relative;
+    height: 8.5rem;
+}
+
+.project-logo {
+    aspect-ratio: 1;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    transition: all .3s ease-out;
+}
+
+.react-logo {
+    background-image: url(../../images/react-icon.png);
+    background-color: #271f43;
+}
+
+.laravel-logo {
+    background-image: url(../../images/laravel-icon.png);
+    background-color: #591c1c;
+}
+
+.lumen-logo {
+    background-image: url(../../images/lumen-logo.png);
+    background-color: #591c1c;
+}
+
+.flask-logo {
+    background-image: url(../../images/flask-icon.png);
+    background-color: #b1b1b1;
+}
+
+.gatsby-logo {
+    background-image: url(../../images/gatsby-logo.png);
+    background-color: #3b0e6a;
+}
+
+// .blog-item:not(:nth-last-child(2)) {
+//     // border-bottom: 1px solid lightgray;
+// }
